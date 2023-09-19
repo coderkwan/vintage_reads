@@ -1,0 +1,13 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+body {
+    max-width: 950px;
+}
+
+p,
+li,
+a {
+    font-size: 18.5px;
+}

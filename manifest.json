@@ -1,0 +1,22 @@
+{
+    "name": "Vintage Reads",
+    "version": "1.0.0",
+    "description": "Read old articles with ease.",
+    "manifest_version": 3,
+    "author": "coder kwan",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": { "16": "icon.png" }
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Alt+B",
+                "mac": "Command+B"
+            }
+        }
+    }
+}
